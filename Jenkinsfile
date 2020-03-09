@@ -13,7 +13,7 @@ pipeline{
   }
   stage('Deploy'){
   steps{
-    sh ''' docker build -t openmrs . '''
+    sh ''' sudo docker build -t openmrs . '''
   }
   }
  }
